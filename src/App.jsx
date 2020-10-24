@@ -5,13 +5,15 @@ import Header from './components/Header'
 import MidHeader from './components/MidHeader';
 import {Routes,Route} from 'react-router-dom'
 import Footer from './components/Footer';
-import Mid from './components/Mid';
-
+import MidBack from './components/MidBack';
+import Data from './components/Data'
 function App() {
   return (
     <>
       <Header></Header>
       <MidHeader></MidHeader>
+      <MidBack></MidBack>
+      <Data></Data>
       <Footer></Footer>
     </>
   );

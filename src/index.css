@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-.pic{
-  background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg") !important;
-}
 .style-icon .fa-search{
   width: 20px !important;
   height: 20px !important;
@@ -48,3 +45,11 @@
   background: #002f34;
   color: azure;
 } 
+.carousel-inner{
+  width: 100%;
+  height: 70vh;
+}
+.card-group{
+  width: 90%;
+  margin-left:  50px; 
+}

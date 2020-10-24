@@ -5,12 +5,12 @@ import Bell from '../images/bell-solid.svg'
 const Header = () => {
     return (
         <>
-         <nav className="navbar navbar-expand-lg navbar-light bg-light">
+         <nav className="navbar navbar-expand-md navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand"><img src={myImg} alt="" width="80" height="40"/></a>
-      <div className="col-md-3 mr-2">
+    <a className="Normal"><img src={myImg} alt="" width="80" height="40"/></a>
+      <div className="col-md-3 mr-1">
       <form className="d-flex justify-content-center">
-        <select className="form-control mr-2 " id="placeholder" type="search" placeholder="Search" aria-label="Search">
+        <select className="form-control" id="placeholder" type="search" placeholder="Search" aria-label="Search">
         <option value="Pakistan">Pakistan</option>
         <option value="Karachi">Karachi</option>
         <option value="Lahore">Lahore</option>
@@ -22,7 +22,7 @@ const Header = () => {
       </div>
       <div className="col-md-5">
       <form class="d-flex">
-        <input class="form-control mr-2" type="search" placeholder="Find Cars,Mobile Phones and more" aria-label="Search"/>
+        <input class="form-control " type="search" placeholder="Find Cars,Mobile Phones and more" aria-label="Search"/>
         <button class="btn" type="submit"><img src={myImgs} alt=""/></button>
       </form>
       </div>
